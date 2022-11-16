@@ -1,0 +1,32 @@
+.logo {
+    width: 35% !important;
+}
+.recuperarPass {
+    width: 50% !important;
+}
+@media (max-width:1199px) AND (min-width:992px) {
+    .logo {
+        width: 50% !important;
+    }
+    .recuperarPass {
+        width: 50% !important;
+    }
+}
+
+@media (max-width:991px) AND (min-width:768px) {
+    .logo {
+        width: 60% !important;
+    }
+    .recuperarPass {
+        width: 60% !important;
+    }
+}
+
+@media (max-width:575px) {
+    .logo {
+        width: 100% !important;
+    }
+    .recuperarPass {
+        width: 100% !important;
+    }
+}
